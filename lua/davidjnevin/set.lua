@@ -1,3 +1,5 @@
+vim.g.mapleader = " "
+
 vim.opt.guicursor = ""
 
 vim.opt.nu = true
@@ -19,6 +21,10 @@ vim.opt.undofile = true
 
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+
+vim.opt.cmdheight = 2
 
 vim.opt.termguicolors = true
 
@@ -29,5 +35,3 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
-
-vim.g.mapleader = " "
