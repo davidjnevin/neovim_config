@@ -1,7 +1,8 @@
 # neovim_config
+
 Configuration files for personalized neovim setup.
 
-requires 
+Requires 
 
 https://github.com/wbthomason/packer.nvim
 
